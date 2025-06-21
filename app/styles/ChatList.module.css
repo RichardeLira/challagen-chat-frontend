@@ -1,0 +1,33 @@
+/* src/styles/ChatList.module.css */
+.chatListContainer {
+  background-color: #212224;
+  width: 300px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-right: 1px solid #333;
+}
+
+.chatListHeader {
+  display: flex;
+  justify-content: space-between; /* Mantido para centralizar o título, ou pode ser "flex-start" */
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3d3e42;
+  margin-bottom: 15px;
+  justify-content: center; /* Centraliza o título "Chats" */
+}
+
+.headerTitle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* Removido .headerIcons e .icon */
+
+.chatList {
+  flex-grow: 1;
+  overflow-y: auto;
+}

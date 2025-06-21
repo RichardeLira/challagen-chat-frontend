@@ -1,0 +1,61 @@
+/* src/styles/MessageBubble.module.css */
+.messageBubble {
+  display: flex;
+  margin-bottom: 15px;
+  max-width: 70%;
+}
+
+.myMessage {
+  justify-content: flex-end;
+  margin-left: auto;
+  flex-direction: row-reverse;
+}
+
+.theirMessage {
+  justify-content: flex-start;
+}
+
+.avatarContainer {
+  margin-right: 10px;
+}
+
+.myMessage .avatarContainer {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.messageContent {
+  padding: 10px 15px;
+  border-radius: 18px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.timestamp {
+  font-size: 10px;
+  color: #b0b0b0;
+  align-self: flex-end;
+}
+
+.myMessage .messageContent {
+  background-color: #5865f2;
+  border-bottom-right-radius: 4px;
+}
+
+.theirMessage .messageContent {
+  background-color: #3a3b3f;
+  border-bottom-left-radius: 4px;
+}

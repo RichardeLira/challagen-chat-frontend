@@ -1,0 +1,20 @@
+/* src/styles/UserStatus.module.css */
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.online {
+  background-color: #4CAF50;
+}
+
+.offline {
+  background-color: #616161;
+}
+
+.away {
+  background-color: #FFC107;
+}

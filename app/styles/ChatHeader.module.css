@@ -1,0 +1,49 @@
+/* src/styles/ChatHeader.module.css */
+.chatHeader {
+  display: flex;
+  justify-content: flex-start; /* Ajustado para focar no userInfo */
+  align-items: center;
+  padding: 15px 25px;
+  background-color: #2e2f33;
+  border-bottom: 1px solid #3d3e42;
+  color: #fff;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.avatarContainer {
+  position: relative;
+  margin-right: 12px;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatarContainer .dot {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  border: 2px solid #2e2f33;
+}
+
+.nameAndStatus {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.userStatusText {
+  font-size: 13px;
+  color: #b0b0b0;
+}
+
+/* Removido .actions e .icon */

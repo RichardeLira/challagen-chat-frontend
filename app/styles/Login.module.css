@@ -1,0 +1,82 @@
+/* src/styles/Login.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #212224; /* Fundo escuro, similar à lista de chat */
+  color: #fff; /* Cor do texto padrão */
+  padding: 20px;
+}
+
+.loginBox {
+  background-color: #2e2f33; /* Fundo mais escuro para a caixa de login */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* Largura máxima da caixa de login */
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #b0b0b0; /* Cor de texto mais clara para subtítulo */
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaçamento entre os elementos do formulário */
+}
+
+.nameInput {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #3d3e42; /* Borda sutil */
+  border-radius: 8px;
+  background-color: #3a3b3f; /* Fundo do input */
+  color: #fff;
+  font-size: 1rem;
+  outline: none; /* Remove o contorno padrão ao focar */
+  transition: border-color 0.2s ease; /* Transição suave na borda */
+}
+
+.nameInput::placeholder {
+  color: #b0b0b0;
+}
+
+.nameInput:focus {
+  border-color: #5865f2; /* Cor azul ao focar */
+}
+
+.error {
+  color: #ff4d4f; /* Vermelho para mensagens de erro */
+  font-size: 0.9rem;
+  text-align: left;
+  margin-top: -10px; /* Ajusta o espaçamento superior */
+}
+
+.startButton {
+  width: 100%;
+  padding: 15px;
+  background-color: #5865f2; /* Cor de fundo do botão (azul) */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease; /* Transição suave na cor do botão */
+}
+
+.startButton:hover {
+  background-color: #4552e6; /* Azul mais escuro ao passar o mouse */
+}
