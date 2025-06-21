@@ -42,7 +42,7 @@ export default function Home() {
     setMyUserName(userNameFromLS);
 
     if (!socket) {
-      socket = io('http://localhost:3000');
+      socket = io('http://localhost:5000');
     }
 
     socket.on('connect', () => {
@@ -94,7 +94,7 @@ export default function Home() {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await fetch('http://localhost:3000/talks/all-talks');
+        const response = await fetch('http://localhost:5000/talks/all-talks');
         if (!response.ok) {
           throw new Error('Falha ao buscar usuários do backend.');
         }
