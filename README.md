@@ -23,7 +23,7 @@ Este é um projeto fullstack de chat em tempo real usando:
 ├── backend/ (Repositorio backend)    # NestJS WebSocket API
 └── frontend/   # Next.js Chat UI
 
-## ⚠️ Aviso Emoji
+## ⚠️ Observação
 Não execute o projeto 2 vezes ao mesmo tempo no mesmo navegador pois haverá conflito de localStorage. 
 O ideal é usar o chat em navegadores separados, ou, use uma aba em modo Private para executar
 Dessa forma você vai conseguir mandar mensagens de um para outro sem problemas 
