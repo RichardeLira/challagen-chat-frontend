@@ -20,7 +20,7 @@ Este é um projeto fullstack de chat em tempo real usando:
 
 ```bash
 .
-├── backend/    # NestJS WebSocket API
+├── backend/ (Repositorio backend)    # NestJS WebSocket API
 └── frontend/   # Next.js Chat UI
 
 
@@ -55,3 +55,11 @@ yarn install
 
 # 4. Inicie o frontend
 yarn dev
+
+
+## ✅ Resultado Esperado
+Interface de chat disponível em http://localhost:3001
+
+Conexão WebSocket com backend NestJS
+
+Nomes de usuarios e gerenciamento de sessões disponiveis no mongoDb
